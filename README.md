@@ -3,7 +3,7 @@
 **Name of your app** là một bài tập 1 tại môn UDPT.
 
 Thành viên:
-* [ ] **MSSV1** Tên sinh viên 1 (tên tài khoản github)
+* [x] **1312024** Phạm Trọng Ân (TrongAnPham)
 * [x] **1312461** Nguyễn Hửu Quân (1312461@student.hcmus.edu.vn - NguyenHuuQuan)
 
 URL: **URL hosting của bài tập**
@@ -14,7 +14,7 @@ Sinh viên check vào các mục bên dưới và ghi mã sinh viên đã làm v
 
 Yêu cầu **GIT**
 * [x] Có sử dụng GIT.
-* [ ] Sử dụng GIT theo Centralized Workflow.
+* [x] Sử dụng GIT theo Centralized Workflow.
 * [ ] Sử dụng GIT theo Feature Branch Workflow.
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
