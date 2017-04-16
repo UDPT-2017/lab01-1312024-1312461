@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Lab01-1312024-1312461</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,8 +19,8 @@
 			<ul class="nav navbar-nav">
 				<li class="li"><a href="index.html">Home</a></li>
 				<li class="li"><a href="albums.html">Albums</a></li>
-				<li class="li"><a href="about.html" style="color: white; background: black">About</a></li>
-				<li class="li"><a href="blog.html">Blog</a></li>
+				<li class="li"><a href="about.html">About</a></li>
+				<li class="li"><a href="blog.html" style="color: white; background: black">Blog</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -55,53 +55,16 @@
 	 	</nav>
 	 	</div>
 
-	 	<div class="col-md-10"><center><h1>About</h1>
-
-	 		<table style="width: 600px; margin: 50px">
-	 			<tr><td><h2><strong>MSSV: </strong>1312024</h2></td>
-	 			<th rowspan="2"><img style="display: block;" width="150px" height="150px" src="images/1312024.jpg"></th>
-	 			</tr>
-	 			<tr><td><h2><strong>Tên: </strong>Phạm Trọng Ân</h2></td></tr>
-	 			<tr><td> . </td></tr>
-	 			<tr><td> . </td></tr>
-	 			<tr><td> . </td></tr>
-	 			<tr><td><h2><strong>MSSV: </strong>1312461</h2></td>
-	 			<th rowspan="2"><img style="display: block;" width="150px" height="150px" src="images/1312461.jpg"></th>
-	 			</tr>
-	 			<tr><td><h2><strong>Tên: </strong>Nguyễn Hửu Quân</h2></td></tr>
-	 		</table>	 			
-
-	 		<div><h4>Địa chỉ liên lạc: 606/152 đường 3 tháng 2 Quận 10</h4></div>
-
-			<div id="map" style="width: 800px; height: 400px; margin: 10px"></div>
-
-			<script>
-			function myMap() {
-			  var mapCanvas = document.getElementById("map");
-			  var myCenter = new google.maps.LatLng(10.768051, 106.661708); 
-			  var mapOptions = {center: myCenter, zoom: 5};
-			  var map = new google.maps.Map(mapCanvas,mapOptions);
-			  var marker = new google.maps.Marker({
-			    position: myCenter,
-			    animation: google.maps.Animation.BOUNCE
-			  });
-			  marker.setMap(map);
-			  map.setZoom(18)
-			}
-			</script>
-
-			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC8tFNAwmfXL0Sc22LxQk9xmSnvNXx8f4s&callback=myMap"></script>
-	 		</center>
-	 	</div>
+	 	<div class="col-md-10"><center><h1>Blog</h1></center></div>
 
 	 	<footer>
 	  		<center>
 	  			<p>Contact information 1: <a href="mailto:1312024@student.fit.hcmus.edu.vn">1312024@student.fit.hcmus.edu.vn</a>.</p>
 		  		<p>Contact information 2: <a href="mailto:1312461@student.fit.hcmus.edu.vn">1312461@student.fit.hcmus.edu.vn</a>.</p>
 	  		</center>
- 		</footer>	
+ 		</footer>		 	
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="components/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
 </body>
 </html>
